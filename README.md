@@ -7,6 +7,9 @@
 
 ## get node
 https://nodejs.org/en/
+## get react scripts
+`npm install react-scripts`
+`npm start`
 ## get node-sass
 `npm install -g node-sass`
 ## transpile sass
