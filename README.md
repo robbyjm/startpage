@@ -1,6 +1,6 @@
 # startpage
 - [ ] Bookmarks
-- [ ] Search
+- [x] Search
 - [ ] Weather
 - [ ] Bitcoin
 - [ ] News Feed
