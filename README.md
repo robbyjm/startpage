@@ -13,6 +13,6 @@ https://nodejs.org/en/
 ## get node-sass
 `npm install -g node-sass`
 ## transpile sass
-`node-sass --output-style compressed -w src\scss\ -o src\css\`
+`node-sass --output-style compressed -w src\ -o src\css\`
 
 

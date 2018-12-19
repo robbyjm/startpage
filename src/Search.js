@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './css/App.css';
+import './css/Search.css';
 
-class App extends Component {
+class Search extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="Search">
         <header className="App-header">
           <form className="Search-bar" action="https://duckduckgo.com/?q=" method="GET">
             <input type="search" name="q" placeholder=" welcome back" autoFocus></input>
@@ -16,4 +15,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Search;
