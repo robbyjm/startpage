@@ -1,4 +1,4 @@
-
+@import 'colors';
 html {
     background-color: #f7f7f7;
     font-family: interstate-mono, monospace;
@@ -43,13 +43,20 @@ html {
                 text-align: left;
                 list-style-type: none;
                 margin: 0;
-                padding: 0;
+                padding-right: 2em;
+                hr {
+                    border-color: rgba(0,0,0,0) !important;
+                }
             }
             .bookmark {
                 text-align: left; 
                 list-style-type: none; 
                 margin: 0;
                 padding: 0;
+                font-weight: 300;
+                hr {
+                    border-color: rgba(0,0,0,0) !important;
+                }
                 li {
                     display: inline;
                     padding-right: .8em;
@@ -62,3 +69,107 @@ html {
         } 
     }
 } 
+
+#stack {
+    color: $stack;
+    font-weight: 400;
+}
+
+#git {
+    color: $git;
+    font-weight: 400;
+}
+
+#java {
+    color: $java;
+    font-weight: 400;
+}
+
+#python {
+    color: $java;
+    font-weight: 400;
+}
+
+#aws {
+    color: $aws;
+    font-weight: 400;
+}
+
+#nest {
+    color: $nest;
+    font-weight: 400;
+}
+
+#hs {
+    color: $hs;
+    font-weight: 400;
+}
+
+#dw {
+    color: $dw;
+    font-weight: 400;
+}
+
+#canvas {
+    color: $canvas;
+    font-weight: 400;
+}
+
+#waze {
+    color: $waze;
+    font-weight: 400;
+}
+
+#yt {
+    color: $yt;
+    font-weight: 400;
+}
+
+#reddit {
+    color: $reddit;
+    font-weight: 400;
+}
+#rd{
+    color: $rd;
+    font-weight: 400;
+}
+#dayz{
+    color: $dayz;
+    font-weight: 400;
+}
+#google{
+    color: $google;
+    font-weight: 400;
+}
+#mf{
+    color: $mf;
+    font-weight: 400;
+}
+#eye{
+    color: $eye;
+    font-weight: 400;
+}
+#vim{
+    color: $vim;
+    font-weight: 400;
+}
+#react{
+    color: $react;
+    font-weight: 400;
+}
+#js{
+    color: $js;
+    font-weight: 400;
+}
+#ct{
+    color: $ct;
+    font-weight: 400;
+}
+#bttn{
+    color: $bttn;
+    font-weight: 400;
+}
+#animate{
+    color: $animate;
+    font-weight: 400;
+}
