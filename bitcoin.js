@@ -2,5 +2,4 @@ fetch('https://api.coindesk.com/v1/bpi/currentprice.json').then(function (respon
     return response.json();
 })
     .then(function (myJson) {
-        document.getElementById('s').innerHTML = "BTC $" + myJson.bpi.USD.rate_float.toFixed(2);
-    })
+        document.getElementById('s').innerHTML = "BTC $" + myJson.bpi.USD.rate_float.toFixed(2);})

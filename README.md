@@ -11,4 +11,3 @@ https://nodejs.org/en/
 `npm install -g node-sass`
 ## transpile sass
 `node-sass --output-style compressed -w style.scss -o ./`
-
