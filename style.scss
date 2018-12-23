@@ -1,175 +1,181 @@
-@import 'colors';
+@import "colors";
 html {
-    background-color: #f7f7f7;
-    font-family: interstate-mono, monospace;
-    font-weight: 400;
-    font-style: normal;
-    body {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
-        align-content: center;
-        justify-content: center;
-        text-align: center;
-        main {
-            form {
-                height: 45px;
-                width: 490px;
-                border: 1px solid rgba(0,0,0,0.15);
-                border-radius: 3px;
-                box-shadow: 0 2px 3px rgba(0,0,0,0.06);
-                input[type="search"] {
-                    width: inherit;
-                    height: inherit;
-                    padding-right: 0;
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    padding-left: .75em;
-                    border-width: 0;
-                    font-size: 1.1em;
-                    font-family: interstate-mono, monospace !important;
-                    font-weight: 300 !important;
-                    font-style: normal !important;
-                 
-                    &:focus {
-                        outline: none; 
-                    }
-                }
-            }
+  background-color: #f7f7f7;
+  font-family: interstate-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  body {
+    display: flex;
+
+    align-items: center;
+
+    main {
+      flex-grow: 1;
+      form {
+        margin: 1em auto !important;
+        height: 45px;
+        width: 490px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 3px;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+        input[type="search"] {
+          width: inherit;
+          height: inherit;
+          padding-right: 0;
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-left: 0.75em;
+          border-width: 0;
+          font-size: 1.1em;
+          font-family: interstate-mono, monospace !important;
+          font-weight: 300 !important;
+          font-style: normal !important;
+
+          &:focus {
+            outline: none;
+          }
         }
-        nav {
-            display: flex;
-            .bookmark-group {
-                text-align: left;
-                list-style-type: none;
-                margin: 0;
-                padding-right: 2em;
-                hr {
-                    border-color: rgba(0,0,0,0) !important;
-                }
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        .bookmark-group {
+          text-align: left;
+          list-style-type: none;
+          margin: 0;
+          padding-right: 2em;
+          hr {
+            border-color: rgba(0, 0, 0, 0) !important;
+          }
+        }
+        .bookmark {
+          text-align: left;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          font-weight: 300;
+          hr {
+            border-color: rgba(0, 0, 0, 0) !important;
+          }
+          li {
+            display: inline;
+            padding-right: 0.8em;
+            a {
+              color: black;
+              text-decoration: none;
             }
-            .bookmark {
-                text-align: left; 
-                list-style-type: none; 
-                margin: 0;
-                padding: 0;
-                font-weight: 300;
-                hr {
-                    border-color: rgba(0,0,0,0) !important;
-                }
-                li {
-                    display: inline;
-                    padding-right: .8em;
-                     a {
-                         color: black;
-                        text-decoration: none;
-                    }
-                }
-            } 
-        } 
+          }
+        }
+      }
     }
-} 
+  }
+}
+
+footer {
+  display: flex;
+  align-self: flex-end;
+}
 
 #stack {
-    color: $stack;
-    font-weight: 400;
+  color: $stack;
+  font-weight: 400;
 }
 
 #git {
-    color: $git;
-    font-weight: 400;
+  color: $git;
+  font-weight: 400;
 }
 
 #java {
-    color: $java;
-    font-weight: 400;
+  color: $java;
+  font-weight: 400;
 }
 
 #python {
-    color: $java;
-    font-weight: 400;
+  color: $java;
+  font-weight: 400;
 }
 
 #aws {
-    color: $aws;
-    font-weight: 400;
+  color: $aws;
+  font-weight: 400;
 }
 
 #nest {
-    color: $nest;
-    font-weight: 400;
+  color: $nest;
+  font-weight: 400;
 }
 
 #hs {
-    color: $hs;
-    font-weight: 400;
+  color: $hs;
+  font-weight: 400;
 }
 
 #dw {
-    color: $dw;
-    font-weight: 400;
+  color: $dw;
+  font-weight: 400;
 }
 
 #canvas {
-    color: $canvas;
-    font-weight: 400;
+  color: $canvas;
+  font-weight: 400;
 }
 
 #waze {
-    color: $waze;
-    font-weight: 400;
+  color: $waze;
+  font-weight: 400;
 }
 
 #yt {
-    color: $yt;
-    font-weight: 400;
+  color: $yt;
+  font-weight: 400;
 }
 
 #reddit {
-    color: $reddit;
-    font-weight: 400;
+  color: $reddit;
+  font-weight: 400;
 }
-#rd{
-    color: $rd;
-    font-weight: 400;
+#rd {
+  color: $rd;
+  font-weight: 400;
 }
-#dayz{
-    color: $dayz;
-    font-weight: 400;
+#dayz {
+  color: $dayz;
+  font-weight: 400;
 }
-#google{
-    color: $google;
-    font-weight: 400;
+#google {
+  color: $google;
+  font-weight: 400;
 }
-#mf{
-    color: $mf;
-    font-weight: 400;
+#mf {
+  color: $mf;
+  font-weight: 400;
 }
-#eye{
-    color: $eye;
-    font-weight: 400;
+#eye {
+  color: $eye;
+  font-weight: 400;
 }
-#vim{
-    color: $vim;
-    font-weight: 400;
+#vim {
+  color: $vim;
+  font-weight: 400;
 }
-#react{
-    color: $react;
-    font-weight: 400;
+#react {
+  color: $react;
+  font-weight: 400;
 }
-#js{
-    color: $js;
-    font-weight: 400;
+#js {
+  color: $js;
+  font-weight: 400;
 }
-#ct{
-    color: $ct;
-    font-weight: 400;
+#ct {
+  color: $ct;
+  font-weight: 400;
 }
-#bttn{
-    color: $bttn;
-    font-weight: 400;
+#bttn {
+  color: $bttn;
+  font-weight: 400;
 }
-#animate{
-    color: $animate;
-    font-weight: 400;
+#animate {
+  color: $animate;
+  font-weight: 400;
 }
