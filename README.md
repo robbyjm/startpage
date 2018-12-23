@@ -2,7 +2,7 @@
 - [x] Bookmarks
 - [x] Search
 - [ ] Weather
-- [ ] Bitcoin
+- [x] Bitcoin
 - [ ] News Feed
 
 ## get node
