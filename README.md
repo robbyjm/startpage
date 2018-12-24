@@ -1,7 +1,7 @@
 # startpage
 - [x] Bookmarks
 - [x] Search
-- [ ] Weather
+- [x] Weather
 - [x] Bitcoin
 - [ ] News Feed
 

@@ -6,11 +6,10 @@ html {
   font-style: normal;
   body {
     display: flex;
-
+    flex-direction: column;
     align-items: center;
-
+    justify-content: space-between;
     main {
-      flex-grow: 1;
       form {
         margin: 1em auto !important;
         height: 45px;

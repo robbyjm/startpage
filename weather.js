@@ -2,5 +2,8 @@ fetch('https://api.openweathermap.org/data/2.5/weather?zip=94040,us&units=imperi
     return response.json();
 })
     .then(function (myJson) {
-        var obj = JSON.parse(myJson);
-        document.getElementById('t').innerHTML = obj.weather[2];})
+        document.getElementById('t').innerHTML = myJson.weather[0].description;
+        var img = document.createElement("img");
+        img.src = 'http://openweathermap.org/img/w/'+ myJson.weather[0].icon +'.png';
+        document.getElementById('u').appendChild(img);
+    })
