@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <script src="weather.js" type="text/javascript"></script> 
-    <script src="bitcoin.js" type="text/javascript"></script> 
+    <script src="weather.js" type="text/javascript"></script>
+    <script src="bitcoin.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://use.typekit.net/cnw4ewi.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>startpage</title>
@@ -10,11 +10,17 @@
 </head>
 
 <body>
-    <header id="u"></header>
+    <header></header>
     <main>
-        <form action="https://duckduckgo.com/?q=" method="GET">
-            <input type="search" name="q" placeholder=" welcome back" autoFocus></input>
-        </form>
+        <div class="weather-nav">
+            <form action="https://duckduckgo.com/?q=" method="GET">
+                <input type="search" name="q" placeholder=" welcome back" autoFocus></input>
+            </form>
+            <div class="weather">
+                <div id="u"></div>
+                <div id="t"></div>
+            </div>
+        </div>
         <nav>
             <ul class="bookmark-group">
                 <li>dev</li>
@@ -64,7 +70,6 @@
         </nav>
     </main>
     <footer>
-        <div id="t"></div>
         <div id="s"></div>
     </footer>
 </body>

@@ -10,6 +10,14 @@ html {
     align-items: center;
     justify-content: space-between;
     main {
+      .weather-nav {
+        display: flex;
+        .weather {
+          text-align: center;
+        }
+      }
+      display: flex;
+      flex-direction: column;
       form {
         margin: 1em auto !important;
         height: 45px;
