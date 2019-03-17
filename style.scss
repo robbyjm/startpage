@@ -9,6 +9,8 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height: 100vh;  /* NEW */
+    margin: 0;  /* NEW */
     main {
       .weather-nav {
         display: flex;
